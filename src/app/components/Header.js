@@ -88,7 +88,7 @@ export default function Header() {
           } flex flex-col w-full bg-white gap-y-6 overflow-hidden font-bold xl:font-medium xl:flex-row xl:w-max xl:gap-x-8 xl:h-max xl:bg-transparent xl:pb-0 transition-all duration-150 text-center xl:text-left uppercase text-sm xl:text-[15px] xl:normal-case`}
         >
           <Link
-            className="cursor-point"
+            className="cursor-pointer"
             to="home"
             activeClass="active"
             smooth={desktopMode}
@@ -97,7 +97,7 @@ export default function Header() {
             Home
           </Link>
           <Link
-            className="cursor-point"
+            className="cursor-pointer"
             to="cars"
             activeClass="active"
             smooth={desktopMode}
@@ -106,7 +106,7 @@ export default function Header() {
             Cars
           </Link>
           <Link
-            className="cursor-point"
+            className="cursor-pointer"
             to="about"
             activeClass="active"
             smooth={desktopMode}
@@ -115,7 +115,7 @@ export default function Header() {
             About
           </Link>
           <Link
-            className="cursor-point"
+            className="cursor-pointer"
             to="why"
             activeClass="active"
             smooth={desktopMode}
@@ -124,8 +124,8 @@ export default function Header() {
             Why us
           </Link>
           <Link
-            className="cursor-point"
-            to="testimonials"
+            className="cursor-pointer"
+            to="testimonial"
             activeClass="active"
             smooth={desktopMode}
             spy={true}
@@ -133,7 +133,7 @@ export default function Header() {
             Testimonials
           </Link>
           <Link
-            className="cursor-point"
+            className="cursor-pointer"
             to="contact"
             activeClass="active"
             smooth={desktopMode}
